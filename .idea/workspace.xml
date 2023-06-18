@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d87076d6-9c1b-4502-9140-3e3ec5c2249d" name="Changes" comment="протестировал и подправил.Все же решил сделать на русском" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;searchQuery&quot;: &quot;https://github.com/Voir70/Toy.git&quot;,
+      &quot;state&quot;: &quot;OPEN&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1c32fe8c-37d1-4512-94c2-cbecb6f8947c" />
+        <option name="url" value="https://github.com/Voir70/Toy.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2MkCcWLA7FL5nAOZ5I2GC3fdzC3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowPull Requests.ShowToolbar": "false",
+    "last_opened_file_path": "C:/Users/Владимир/IdeaProjects/Toy/src/Main.java",
+    "settings.editor.selected.configurable": "project.scopes",
+    "two.files.diff.last.used.file": "C:/Users/Владимир/IdeaProjects/Toy/src/Main.java"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Toy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="gb_2-2_exam" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="gb_2-2_exam" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d87076d6-9c1b-4502-9140-3e3ec5c2249d" name="Changes" comment="" />
+      <created>1678302273935</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678302273935</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Git init">
+      <created>1678302334420</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678302334420</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added README file">
+      <created>1678302973747</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678302973747</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added Toy class">
+      <created>1678382514818</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678382514819</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Toy class: overrode equals() and hashCode(); added all getters and setters.">
+      <created>1678471306203</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678471306203</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Добавлен класс розыгрыша призов. Исправлены некоторые предупреждения. Удалил бесполезные методы.">
+      <created>1687083581185</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687083581185</updated>
+    </task>
+    <task id="LOCAL-00006" summary="git init">
+      <created>1687084759693</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687084759693</updated>
+    </task>
+    <task id="LOCAL-00007" summary="git init">
+      <created>1687087519089</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687087519089</updated>
+    </task>
+    <task id="LOCAL-00008" summary="git init">
+      <created>1687087538367</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687087538367</updated>
+    </task>
+    <task id="LOCAL-00009" summary="git init">
+      <created>1687088867637</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687088867637</updated>
+    </task>
+    <task id="LOCAL-00010" summary="git init">
+      <created>1687088887484</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1687088887484</updated>
+    </task>
+    <task id="LOCAL-00011" summary="git init">
+      <created>1687089162928</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1687089162928</updated>
+    </task>
+    <task id="LOCAL-00012" summary="git init">
+      <created>1687091076685</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1687091076685</updated>
+    </task>
+    <task id="LOCAL-00013" summary="git init">
+      <created>1687091974067</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1687091974067</updated>
+    </task>
+    <task id="LOCAL-00014" summary="тут все и крылось">
+      <created>1687092117380</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1687092117380</updated>
+    </task>
+    <task id="LOCAL-00015" summary="тут все и крылось">
+      <created>1687092212370</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1687092212370</updated>
+    </task>
+    <task id="LOCAL-00016" summary="протестировал и подправил.Все же решил сделать на русском">
+      <created>1687098774502</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1687098774502</updated>
+    </task>
+    <task id="LOCAL-00017" summary="протестировал и подправил.Все же решил сделать на русском">
+      <created>1687099068335</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1687099068335</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Git init" />
+    <MESSAGE value="Added README file" />
+    <MESSAGE value="Added Toy class" />
+    <MESSAGE value="Toy class: overrode equals() and hashCode(); added all getters and setters." />
+    <MESSAGE value="Добавлен класс розыгрыша призов. Исправлены некоторые предупреждения. Удалил бесполезные методы." />
+    <MESSAGE value="git init" />
+    <MESSAGE value="тут все и крылось" />
+    <MESSAGE value="протестировал и подправил.Все же решил сделать на русском" />
+    <option name="LAST_COMMIT_MESSAGE" value="протестировал и подправил.Все же решил сделать на русском" />
+  </component>
+</project>

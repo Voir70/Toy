@@ -15,30 +15,30 @@ public class Raffle {
         String title;
         int frequency;
         while (true) {
-            System.out.print("Enter Title: ");
+            System.out.print("Введите название: ");
             title = scan.nextLine();
             if (title.isEmpty()) {
-                System.out.println("Incorrect input. Try again.");
+                System.out.println("Неверный ввод. Пробовать снова.");
                 break;
             }
-            System.out.print("Enter Frequency of dropping out: ");
+            System.out.print("Введите частоту отсева: ");
             String value = scan.nextLine();
             if (isDigit(value)) {
                 frequency = Integer.parseInt(value);
                 if (frequency <= 0) {
-                    System.out.println("Incorrect input. Try again.");
+                    System.out.println("Неверный ввод. Пробовать снова.");
                 } else {
                     Toy toy = new Toy(idCounter, title, frequency);
                     if (!toys.contains(toy) || toys.size() == 0) {
                         idCounter++;
                         toys.add(toy);
-                        System.out.println("New toy was added");
+                        System.out.println("Добавлена новая игрушка");
                     } else {
-                        System.out.println("This toy is already in the prize fund.");
+                        System.out.println("Эта игрушка уже есть в призовом фонде.");
                     }
                 }
             } else {
-                System.out.println("Incorrect input. Try again.");
+                System.out.println("Неверный ввод. Пробовать снова.");
             }
             break;
         }
@@ -46,27 +46,27 @@ public class Raffle {
 
     public void setFrequency() {
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter Toy ID: ");
+        System.out.print("Введите ID игрушки: ");
         String value = scan.nextLine();
         if (isDigit(value)) {
             int selectedId = Integer.parseInt(value);
             if (selectedId >= 0 && selectedId < toys.size()) {
-                System.out.println("Toy " + toys.get(selectedId).getToyTitle() +
-                        " has frequency of victory " + toys.get(selectedId).getToyVictoryFrequency());
-                System.out.print("Enter new Frequency of dropping out: ");
+                System.out.println("Игрушка " + toys.get(selectedId).getToyTitle() +
+                        " имеет частоту победы " + toys.get(selectedId).getToyVictoryFrequency());
+                System.out.print("Введите частоту отсева: ");
                 value = scan.nextLine();
                 if (isDigit(value)) {
                     int newFrequency = Integer.parseInt(value);
                     toys.get(selectedId).setToyVictoryFrequency(newFrequency);
-                    System.out.println("Frequency was changed.");
+                    System.out.println("Частота была изменена.");
                 } else {
-                    System.out.println("Incorrect input. Try again.");
+                    System.out.println("Неверный ввод. Пробовать снова.");
                 }
             } else {
-                System.out.println("There is not toy with such ID in prize fund.");
+                System.out.println("В призовом фонде нет игрушки с таким ID.");
             }
         } else {
-            System.out.println("Incorrect input. Try again.");
+            System.out.println("Неверный ввод. Пробовать снова.");
         }
     }
 
@@ -98,7 +98,7 @@ public class Raffle {
             System.out.println("Prize: " + prize.getToyTitle());
             saveResult(prize.getInfo());
         } else {
-            System.out.println("You should add at least two toys into prize fund.");
+            System.out.println("Вы должны добавить в призовой фонд как минимум две игрушки.");
         }
     }
 

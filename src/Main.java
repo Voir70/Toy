@@ -6,11 +6,11 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         while (true) {
             System.out.print("""
-                    Main menu:
-                    1 - Add a new toy into the prize fund
-                    2 - Change the frequency of dropping out some toy
-                    3 - Hold a raffle and save results
-                    0 - EXIT
+                    Главное меню:
+                    1 - Добавьте новую игрушку в призовой фонд
+                    2 - Измените частоту выпадения какой-нибудь игрушки
+                    3 - Проведите розыгрыш и сохраните результаты
+                    0 - ВЫХОД
                     >\s""");
             var selection = sc.next();
             switch (selection) {
@@ -18,10 +18,10 @@ public class Main {
                 case "2" -> r.setFrequency();
                 case "3" -> r.raffle();
                 case "0" -> {
-                    System.out.println("Bye");
+                    System.out.println("Пока");
                     System.exit(0);
                 }
-                default -> System.out.println("Incorrect selection. Try again.");
+                default -> System.out.println("Неправильный выбор. Пробовать снова.");
             }
         }
     }
